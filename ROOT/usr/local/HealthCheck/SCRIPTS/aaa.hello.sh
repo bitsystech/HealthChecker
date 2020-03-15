@@ -8,6 +8,12 @@
 consoleuser=$(stat -f%Su /dev/console)
 cname=$(scutil --get ComputerName)
 
+# Also feel free to try cocoaDialog for display notification
+# https://cocoadialog.com/
+# Don't forget to whitelist the app before you add it in script
+
+# Created a fn that will be used for complex actions in future releases.
+# Feel free to try a simpler way
 sayhellow()
 {
 /usr/bin/osascript <<-EOD
@@ -23,5 +29,4 @@ EOD
 }
 
 sayhellow
-
-srm “$0”
+# Feel free to add a Self Destroy line here. This script is only needed to run once.
