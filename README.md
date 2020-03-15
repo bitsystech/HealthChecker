@@ -2,6 +2,9 @@ This is a quick solution to run a health check once a week. In the world of emoj
 The entire solution has lots of moving parts & it's completely modular. This is meant to inform users about the issues the Mac is facing & they are not aware of. 
 v1.0 has the following:
 
+- Bulleted An Introduction popup to inform users that Mac will send the notification if it has issues.
+![](/Screeshots/Introduction.png)
+
 - Bulleted 1. Notify users if Macs hasn't rebooted for more than 3 days
 - Bulleted 2. Notify users if Hard Disk has less than 15GB free space
 - Bulleted 3. Notify users if Battery needs replacement
