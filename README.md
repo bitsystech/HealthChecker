@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+This is a quick solution to run a health check once a week. In the world of emojis & gifs, things have started making more sense to the users when it has one. 
+The entire solution has lots of moving parts & it's completely modular. This is meant to inform users about the issues the Mac is facing & they are not aware of. 
+v1.0 has the following:
 
-You can use the [editor on GitHub](https://github.com/laeeqhumam/HealthChecker/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- Bulleted 1. Notify users if Macs hasn't rebooted for more than 3 days
+- Bulleted 2. Notify users if Hard Disk has less than 15GB free space
+- Bulleted 3. Notify users if Battery needs replacement
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Features to be added in v2.0 
+1. Check & fix proxy
+2. Check & fix time server
 
-### Markdown
+How to install locally for testing:
+Download the ROOT folder. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Best Practice to deploy for users:
+- Bulleted Check permissions
+- Bulleted Test it locally by running the HealthCheckEngine.sh manually 
+- Bulleted Test multiple times.
+- Bulleted Modify the LaunchAgent to run every 15mins & test.
+- Bulleted Ensure that it works.
+- Bulleted Make changes you need.
+- Bulleted Test on 2-3 Macs with a frequency of Daily.
+- Bulleted Now create the package & deploy in Production.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/laeeqhumam/HealthChecker/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Folder structure where the files should be placed, will be added soon.
